@@ -51,8 +51,11 @@ A cascaded and an End-to-end approaches are considered as an application of AD. 
 independently trained and managed models such as ST, MT, PA, and TS. In contrast, End-to-end AD utilizes a single model 
 to achieve the tasks in cascaded AD.  
 
-
 #### Cascaded Automatic Dubbing
+
+[From Speech-to-Speech Translation to Automatic Dubbing](https://aclanthology.org/2020.iwslt-1.31.pdf), IWSLT, 2020
+- Proposes to leverage SR, MT that controls the output length, PA to align source speech segments with MT outputs, 
+and TS with a feature to adjust the duration of speech segments, to achieve AD.  
 
 
 #### End-to-End Automatic Dubbing
