@@ -37,12 +37,18 @@ Text-to-Speech (TS) modules.
 
 
 #### Machine Translation: MT
+[The Two Shades of Dubbing in Neural Machine Translation, COLING, 2022](https://aclanthology.org/2020.coling-main.382.pdf)
+- Proposes to apply relaxed translation length constraint for off-screen (_i.e when a character lip is not visible on screen_) 
+   AD, to ultimately minimize the impact on translation quality.
 
 
 #### Prosodic Alignment: PA
 
 
 #### Text to Speech: TS
+
+
+#### Face/Lip Detection/Generation: LipSync
 
 
 ---
@@ -54,9 +60,12 @@ to achieve the tasks in cascaded AD.
 #### Cascaded Automatic Dubbing
 
 [From Speech-to-Speech Translation to Automatic Dubbing](https://aclanthology.org/2020.iwslt-1.31.pdf), IWSLT, 2020
-- Proposes to leverage SR, MT that controls the output length, PA to align source speech segments with MT outputs, 
-and TS with a feature to adjust the duration of speech segments, to achieve AD.  
+- Proposes to leverage robust SR, MT that controls the output length, PA to align source speech segments with MT outputs, 
+and TS with a feature to adjust the duration of speech segments, to create an AD experience.  
 
+[Face-Dubbing++: Lip-Synchronous, Voice Preserving Translation of Videos](https://arxiv.org/pdf/2206.04523.pdf), arXiv, 2022
+- Focuses on synthetic lip/face generation for a lip-sync AD, using SR with word emphases detection, MT with emphases 
+transfer capability, and TS with a voice conversion module.  
 
 #### End-to-End Automatic Dubbing
 
