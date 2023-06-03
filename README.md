@@ -68,7 +68,8 @@ and TS with a feature to adjust the duration of speech segments, to create an AD
 transfer capability, and TS with a voice conversion module.  
 
 #### End-to-End Automatic Dubbing
-
+[Automated Dubbing and Facial Synchronization using Deep Learning](https://ieeexplore.ieee.org/abstract/document/9773697/), IEEE, 2022
+- Describes and demonstrates an automatic dubbing pipeline built on existing ML modules. ASR, Forced Alignment, MT, TTS, and lipsync, wired together with an ffmpeg-powered automatic rendering system.  
 
 ---
 ## Automatic Dubbing Related
